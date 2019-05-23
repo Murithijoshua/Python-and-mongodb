@@ -1,3 +1,5 @@
+from typing import List, Any
+
 from database import Database
 from models.post import Post
 
@@ -7,5 +9,9 @@ post = Post(
     title="festival",
     content="today was blessing",
     author="joshua",
+    date="2345678"
 
 )
+p=Database.show()
+for i in p:
+    print(i)
