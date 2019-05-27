@@ -1,7 +1,7 @@
 
 import pymongo
-
-url="mongodb://127.0.0.1:27017"
+#this can be used for checking wether the database is communicating
+url="mongodb://hostcode,port"
 client=pymongo.MongoClient(url)
 Database=client['fullstack']
 collection=Database['student']
