@@ -2,7 +2,7 @@ from typing import List, Any
 
 from database import Database
 from models.post import Post
-
+#call to ensure their is connection
 Database.initialize()
 post = Post(
     blog_id="56",
